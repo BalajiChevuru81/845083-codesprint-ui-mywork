@@ -11,7 +11,6 @@ width:50%;
     background-color:white;
 }
 
-
 </style>
 <style>
 body {
@@ -42,8 +41,7 @@ body {
 <body  class="container"  >
 	
 	<img src="ccc.png" alt="FITNESS FREAKzzz" width=800px height=200px class="center">
-
- 
+	
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -69,7 +67,6 @@ body {
   </div>  
 </nav>
 
-
 <div class="container">
 <div class="mydiv">
 <table class="table">
@@ -80,45 +77,25 @@ body {
 
  <th scope="col">S.No.</th>
 
-
-
   <th scope="col">Name</th>
-
-
 
   <th scope="col">Address</th>
 
-
-
   <th scope="col">City</th>
-
-
 
   <th scope="col">Package</th>
 
-
-
   <th scope="col">Trainer Preference</th>
-
-
 
   <th scope="col">Phone</th>
 
-
-
 </tr>
-
-
 
 </thread>
 
 <tbody>
 
-
-
  <tr align="center">
-
-
 
   <th scope="row">1</th>
 
@@ -127,13 +104,9 @@ body {
  </td>
 
 </tr>
-
-
-
+	
 <tr align="center">
-
-
-
+	
   <th scope="row">2</th>
 
  <td>
@@ -142,11 +115,7 @@ body {
 
 </tr>
 
-
-
 <tr align="center">
-
-
 
   <th scope="row">3</th>
 
@@ -156,23 +125,15 @@ body {
 
 </tr>
 
-
-
 </tbody>
-
-
 
 </table>
 </div>
 </div>
 </body>
 
-
-
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-
-
-
+	
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 <script>
@@ -184,21 +145,15 @@ body {
    if(tbClients == null) //If there is no data, initialize an empty array
  
     tbClients = [];
- 
- 
- 
+	
          alert(tbClients);
  
          $("#tblList").html(""); $("#tblList").html( "<thead>"+ " <tr>"+ " <th></th>"+ " <th>fName</th>"+ " <th>street</th>"+ " <th>city</th>"+ " <th>contact</th>"+ " </tr>"+ "</thead>"+ "<tbody>"+ "</tbody>" );
  
- 
- 
          for(var i in tbClients){ var cli = JSON.parse(tbClients[i]);
  
          $("#tblList tbody").append("<tr>"+ " <td>"+cli.fName+"</td>" + " <td>"+cli.street+"</td>" + " <td>"+cli.city+"</td>" + " <td>"+cli.phone+"</td>" + "</tr>"); }
- 
- 
- 
+
      </script>
 
 </html>
